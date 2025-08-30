@@ -8,7 +8,7 @@ class Solution {
             for(Integer i:nums2){
                 if(s.contains(i)){
                     res.add(i);
-                    s.remove(i);
+                   // s.remove(i);
                 }
             }
             //int b=res.length;
